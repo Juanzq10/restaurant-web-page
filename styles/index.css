@@ -1,0 +1,38 @@
+* {
+    border: 0; 
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    background-color: #F1A024;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo .restaurant-name{
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+}
+
+.logo .restaurant {
+    color: #FF0000;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: #fff;
+    font-family: 'Fredoka One', cursive;;
+}
